@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.navb{
+    background-color: #6A1B9A;
+    color: #ffffff;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navb i{
+    padding-left: 8px;
+}
+.navbar{
+    background-color: #f7f8fa !important; 
+    color: #ffffff !important;
+}
+.fa-file-text-o{
+    font-size: 56px !important;
+    color: #C62828;
+}
+.box{
+    box-shadow: 1px 1px 1px 1px  gray;
+    margin-top: 10px;
+    /* margin-left: 10px;     */
+}
