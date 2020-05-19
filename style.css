@@ -18,7 +18,8 @@
     background-color: #f7f8fa !important; 
     color: #ffffff !important;
 }
-.fa-file-text-o{
+.fa-file-text-o,.fa-shield,.fa-gift{
+    padding-top: 20PX;
     font-size: 56px !important;
     color: #C62828;
 }
@@ -26,4 +27,75 @@
     box-shadow: 1px 1px 1px 1px  gray;
     margin-top: 10px;
     /* margin-left: 10px;     */
+    background-color: #f7f8fa;
+}
+.offers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.offers p {
+    color: #C62828
+}
+.card-text.line{
+    text-decoration: line-through !important;
+    font-size: 80%;
+}
+.text-success{
+    font-size: 25px !important;
+    color: #C62828 !important;
+}
+.inline{
+    display: flex;
+    flex-direction: row;
+}
+.btn-primary{
+    background-color: #C62828 !important;
+}
+.checked{
+    color:#6A1B9A  !important;
+}
+.new-arr{
+    background-color: #f7f8fa;
+}
+.card{
+    margin-bottom: 20px !important;
+}
+.footer{
+    background-color: #25272e;
+    color: #9c9c9e;
+}
+.footer .line{
+    background-color:#C62828;
+        width: 50px;
+        height: 2px;
+}
+.footer p i{
+    margin-right: 10px;
+}
+.end{
+    background-color: #68686d;
+    
+}
+.fa-minus,.fa-plus{
+    background-color: #eff0f5;
+    width: 35px;
+    height: 30px;
+    padding-top: 6px;
+    padding-left: 10px;
+    
+   
+}
+
+.bt .btn-primary{
+    background-color: #4cbce8 !important;
+    height: 50px;
+    width: 180px;
+}
+.bt .btn-prima{
+    background-color: #d0611e;
+    color: #f7f8fa;
+    height: 50px;
+    width: 180px;
 }
