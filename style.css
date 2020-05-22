@@ -3,6 +3,12 @@
     padding: 0;
 
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
 .navb{
     background-color: #6A1B9A;
     color: #ffffff;
@@ -98,4 +104,16 @@
     color: #f7f8fa;
     height: 50px;
     width: 180px;
+}
+.jumbotron{
+    background-color: #6A1B9A !important;
+    color: #ffffff ;
+}
+.jumbotron ul li{
+    display: inline !important;
+}
+.jumbotron ul li a{
+    text-decoration: none !important;
+    color: #ffffff !important;
+    padding-left: 10px;
 }
